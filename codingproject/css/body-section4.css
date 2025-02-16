@@ -1,0 +1,73 @@
+.color {
+  color: #a7c7e7;
+  color: #a8e6cf;
+  color: #f4e1c1;
+  color: #264653;
+  color: #ffffff;
+}
+
+@media screen and (max-width: 4560px) and (min-width: 1440px) {
+  .body-section4 {
+    color: #264653;
+    display: flex;
+    text-align: start;
+    margin: 100px;
+    justify-content: space-around;
+  }
+  .s4-img {
+    height: 465px;
+    width: 100%;
+    display: block;
+    text-align: center;
+  }
+  .s4-text {
+    border: solid #264653;
+    margin-top: 5px;
+    padding: 20px;
+  }
+  .body-section4 > div {
+    margin: 10px;
+  }
+}
+@media screen and (max-width: 1440px) {
+  .body-section4 {
+    color: #264653;
+
+    text-align: center;
+  }
+  .s4-img {
+    height: 365px;
+    width: 100%;
+    display: block;
+    text-align: center;
+  }
+  .s4-text {
+    border: solid #264653;
+    margin-top: 5px;
+    padding: 20px;
+  }
+  .body-section4 > div {
+    margin: 10px;
+  }
+}
+@media screen and (max-width: 620px) {
+  .body-section4 {
+    color: #264653;
+
+    text-align: center;
+  }
+  .s4-img {
+    height: 300px;
+    width: 100%;
+    display: block;
+    text-align: center;
+  }
+  .s4-text {
+    border: solid #264653;
+    margin-top: 5px;
+    padding: 10px;
+  }
+  .body-section4 > div {
+    margin: 5px;
+  }
+}

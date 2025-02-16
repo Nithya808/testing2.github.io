@@ -1,0 +1,124 @@
+.color {
+  color: #a7c7e7;
+  color: #a8e6cf;
+  color: #f4e1c1;
+  color: #264653;
+  color: #ffffff;
+}
+
+@media screen and (max-width: 4560px) and (min-width: 1440px) {
+  .body-section2 {
+    background-color: #f4e1c1;
+    padding: 60px 0;
+  }
+  .body-section2 main {
+    display: flex;
+
+    justify-content: space-around;
+    margin: 100px;
+  }
+  .s2 {
+    text-align: center;
+    margin: 10px;
+  }
+  .body-section2 h2 {
+    font-size: 60px;
+    text-align: center;
+
+    color: #264653;
+  }
+  .room {
+    height: 300px;
+    max-width: 400px;
+    margin: 15px 0;
+  }
+  .category {
+    text-align: start;
+    margin: 5px 40px;
+    color: #264653;
+  }
+  .category h3 {
+    font-size: 30px;
+  }
+  .category p {
+    font-size: 20px;
+  }
+  .category-border {
+    border: solid #264653;
+  }
+  .line-high {
+    margin-top: 70px;
+  }
+}
+@media screen and (max-width: 1440px) {
+  .body-section2 {
+    background-color: #f4e1c1;
+    padding: 30px 0;
+  }
+  .s2 {
+    margin: 10px 15px;
+  }
+  .body-section2 h2 {
+    font-size: 50px;
+    text-align: center;
+    color: #264653;
+  }
+  .room {
+    height: 500px;
+    width: 100%;
+  }
+  .category {
+    text-align: start;
+    padding: 15px;
+    color: #264653;
+  }
+  .category h3 {
+    font-size: 30px;
+  }
+  .category p {
+    font-size: 20px;
+  }
+  .category-border {
+    border: solid #264653;
+  }
+  .line-high {
+    margin-top: 70px;
+  }
+}
+@media screen and (max-width: 620px) {
+  .body-section2 {
+    background-color: #f4e1c1;
+    padding: 30px 0;
+    text-align: center;
+  }
+  .body-section2 main {
+    margin: 10px;
+  }
+  .body-section2 h2 {
+    font-size: 20px;
+    text-align: center;
+    color: #264653;
+  }
+  .room {
+    height: 300px;
+    width: 100%;
+    margin: 5px;
+  }
+  .category {
+    text-align: center;
+
+    color: #264653;
+  }
+  .category h3 {
+    font-size: 20px;
+  }
+  .category p {
+    font-size: 15px;
+  }
+  .category-border {
+    border: solid #264653;
+  }
+  .line-high {
+    margin-top: 10px;
+  }
+}

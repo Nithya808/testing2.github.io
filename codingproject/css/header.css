@@ -1,0 +1,199 @@
+.color {
+  color: #a7c7e7;
+  color: #a8e6cf;
+  color: #f4e1c1;
+  color: #264653;
+  color: #ffffff;
+}
+
+@media screen and (max-width: 4560px) {
+  header {
+    background-image: url(../img/image1.jpg);
+    text-align: center;
+    color: whitesmoke;
+    background-size: cover;
+    mix-blend-mode: color-burn;
+    background-position: center;
+    position: relative;
+  }
+  header::after {
+    z-index: -1;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.6;
+    background-color: rgba(0, 0, 0, 0.437); /* Warm orange-red overlay */
+    pointer-events: none;
+  }
+
+  header button {
+    margin-bottom: 50px;
+    background-color: white;
+    border: white solid;
+    border-radius: 5px;
+    padding: 20px 50px;
+    cursor: pointer;
+    transition: padding 0.51s;
+  }
+  .header-btn:active {
+    opacity: 0.8;
+  }
+  .header-logo {
+    height: 300px;
+    margin-top: 20px;
+  }
+  .header-link {
+    margin-bottom: 200px;
+  }
+  .header-text {
+    font-size: 100px;
+    margin-top: -150px;
+  }
+  .header-btn:hover {
+    padding: 30px 60px;
+  }
+  header h1 {
+    font-size: 200px;
+    margin-top: -30px;
+    font-family: "Berkshire Swash", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .header-link > a {
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 50px;
+    font-size: 35px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  header {
+    background-image: url(../img/image1.jpg);
+    text-align: center;
+    color: #ffffff;
+    background-size: cover;
+    mix-blend-mode: color-burn;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
+  header::after {
+    z-index: -1;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.6;
+    background-color: rgba(0, 0, 0, 0.437); /* Warm orange-red overlay */
+    pointer-events: none;
+  }
+
+  header button {
+    margin-bottom: 20px;
+    background-color: white;
+    border: white solid;
+    border-radius: 5px;
+    padding: 15px 40px;
+    cursor: pointer;
+    transition: padding 0.51s;
+  }
+  .header-btn:active {
+    opacity: 0.8;
+  }
+  .header-logo {
+    height: 200px;
+    margin-top: 20px;
+  }
+  .header-link {
+    margin-bottom: 150px;
+  }
+  .header-text {
+    font-size: 80px;
+    margin-top: -150px;
+  }
+  .header-btn:hover {
+    padding: 20px 45px;
+  }
+  header h1 {
+    font-size: 150px;
+    margin-top: -30px;
+    font-family: "Berkshire Swash", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .header-link > a {
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 40px;
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 620px) {
+  header {
+    background-image: url(../img/image1.jpg);
+    text-align: center;
+    color: #ffffff;
+    background-size: cover;
+    mix-blend-mode: color-burn;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
+  header::after {
+    z-index: -1;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.6;
+    background-color: rgba(0, 0, 0, 0.437); /* Warm orange-red overlay */
+    pointer-events: none;
+  }
+
+  header button {
+    margin-bottom: 10px;
+    background-color: white;
+    border: white solid;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: padding 0.51s;
+  }
+  .header-btn:active {
+    opacity: 0.8;
+  }
+  .header-logo {
+    height: 100px;
+    margin-top: 20px;
+  }
+  .header-link {
+    margin-bottom: 150px;
+  }
+  .header-text {
+    font-size: 40px;
+    margin-top: -10px;
+  }
+  .header-btn:hover {
+    padding: 20px 45px;
+  }
+  header h1 {
+    font-size: 50px;
+    margin-top: -0px;
+    font-family: "Berkshire Swash", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .header-link > a {
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 10px;
+    font-size: 20px;
+  }
+}

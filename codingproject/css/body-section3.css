@@ -1,0 +1,82 @@
+.color {
+  color: #a7c7e7;
+  color: #a8e6cf;
+  color: #f4e1c1;
+  color: #264653;
+  color: #ffffff;
+}
+
+@media screen and (max-width: 4560px) and (min-width: 1440px) {
+  .body-section3 {
+    display: flex;
+    margin: 100px;
+    color: #264653;
+  }
+  .family-room {
+    height: 500px;
+    width: 100%;
+  }
+  .body-section3 h3 {
+    font-size: 70px;
+  }
+  .body-section3-text-area {
+    font-size: 20px;
+  }
+  .family-room-text-area {
+    border: #264653 solid;
+    margin: 10px 0;
+    text-align: center;
+  }
+  .family-room-text-area p {
+    padding: 10px 100px;
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 1440px) {
+  .body-section3 {
+    color: #264653;
+  }
+  .family-room {
+    height: 500px;
+    width: 100%;
+  }
+  .body-section3 h3 {
+    font-size: 70px;
+  }
+  .body-section3-text-area {
+    margin-right: 100px;
+    font-size: 20px;
+  }
+  .family-room-text-area {
+    border: #264653 solid;
+    margin: 10px 0;
+    text-align: center;
+  }
+  .family-room-text-area p {
+    padding: 10px 100px;
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 620px) {
+  .body-section3 {
+    color: #264653;
+    text-align: start;
+  }
+  .family-room {
+    height: 300px;
+    width: 100%;
+  }
+  .body-section3 h3 {
+    font-size: 30px;
+  }
+  .body-section3-text-area {
+    font-size: 15px;
+  }
+  .family-room-text-area {
+    border: #264653 solid;
+    margin: 5px 0;
+  }
+  .family-room-text-area p {
+    font-size: 15px;
+  }
+}
